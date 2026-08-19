@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: Conecta_hogar
+
+  config:
+    import: optional:file:.env[.properties]
+
+  # Configuración para permitir archivos de hasta 10 MB en peticiones multipart
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  sql:
+    init:
+      mode: never
+
+  logging:
+    level:
+      org.springframework.security: DEBUG
