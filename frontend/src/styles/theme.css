@@ -1,0 +1,86 @@
+:root {
+  --font-size: 16px;
+
+  /* Paleta Conecta Hogar / Shadcn */
+  --background: #f7f8fa;
+  --foreground: #12141c;
+  --card: #ffffff;
+  --card-foreground: #12141c;
+  --popover: #ffffff;
+  --popover-foreground: #12141c;
+  --primary: #e83360; /* Rosa institucional */
+  --primary-foreground: #ffffff;
+  --secondary: #f5d318; /* Amarillo */
+  --secondary-foreground: #12141c;
+  --muted: #ececf0;
+  --muted-foreground: #717182;
+  --accent: #55bcd9; /* Celeste */
+  --accent-foreground: #12141c;
+  --destructive: #d4183d;
+  --destructive-foreground: #ffffff;
+  --border: rgba(18, 20, 28, 0.1);
+  --input: transparent;
+  --input-background: #f3f3f5;
+  --switch-background: #cbced4;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --ring: #e83360;
+  --radius: 0.625rem;
+
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: #e83360;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: #e83360;
+
+  /* Colores Nativos del Sitio Original */
+  --coral: #E83360;
+  --coral-dark: #C42750;
+  --turquoise: #38BDF8;
+  --turquoise-dark: #0284C7;
+  --teal: #0A6880;
+  --navy: #0B1224;
+  --yellow-brand: #F8DD1A;
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.145 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.145 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: #e83360;
+  --primary-foreground: #ffffff;
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.396 0.141 25.723);
+  --destructive-foreground: oklch(0.637 0.237 25.331);
+  --border: oklch(0.269 0 0);
+  --input: oklch(0.269 0 0);
+  --ring: #e83360;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+}
+
+/* vscode-css-custom-data */
+/* @supports (color: initial) */
+@theme   {
+  --font-sans: "Poppins", "Nunito", "Nunito Sans", system-ui, -apple-system, sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+
+  --color-coral: var(--coral);
+  --color-coral-dark: var(--coral-dark);
+  --color-turquoise: var(--turquoise);
+  --color-turquoise-dark: var(--turquoise-dark);
+  --color-teal: var(--teal);
+  --color-navy: var(--navy);
+  --color-yellow-brand: var(--yellow-brand);
+}
