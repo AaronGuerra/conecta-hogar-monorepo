@@ -1,11 +1,62 @@
-<h1 align="center">🏡 Conecta Hogar</h1>
+# 🏡 Conecta Hogar
+
+<p align="center">
+  <img width="180" alt="logoCH" src="https://github.com/user-attachments/assets/b37cbc69-3681-4d0e-8096-198e8ff5dc0d" />
+</p>
 
 <p align="center">
   Plataforma web Full Stack que conecta personas que necesitan servicios para el hogar con profesionales especializados.
 </p>
 
 <p align="center">
-  <strong>React + TypeScript · Java + Spring Boot · REST API · JWT</strong>
+  <strong>Monorepo · Frontend + Backend · API REST · Autenticación JWT</strong>
+</p>
+
+---
+
+<h2 align="center">💻 Stack Tecnológico</h2>
+
+<h3 align="center">Frontend</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/TypeScript-5+-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vite-6+-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React_Router-7+-CA4245?style=for-the-badge&logo=react-router&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Material_UI-7+-007FFF?style=for-the-badge&logo=mui&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-4+-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Motion-Animations-000000?style=for-the-badge&logo=framer&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Lucide_React-Icons-F56565?style=for-the-badge&logo=lucide&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+</p>
+
+<h3 align="center">Backend</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring_Boot-3+-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring_Security-JWT-6DB33F?style=for-the-badge&logo=spring-security&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Apache_Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Lombok-BC4521?style=for-the-badge&logo=lombok&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MapStruct-DTO_Mapping-FF6B35?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/REST_API-JSON-000000?style=for-the-badge"/>
+</p>
+
+<h3 align="center">Database & Tools</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/NEON-Database-00E699?style=for-the-badge&logo=postgresql&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </p>
 
 ---
@@ -87,41 +138,9 @@ conecta-hogar-monorepo/
                                │
                                ▼
                     ┌─────────────────────┐
-                    │      Database       │
+                    │      NEON DB        │
                     └─────────────────────┘
 ```
-
----
-
-<h2 align="center">🛠️ Tecnologías</h2>
-
-### Frontend
-
-| Tecnología   | Uso                         |
-| ------------ | --------------------------- |
-| React        | Desarrollo de la interfaz   |
-| TypeScript   | Tipado estático             |
-| Vite         | Desarrollo y construcción   |
-| React Router | Navegación y rutas          |
-| Material UI  | Componentes de interfaz     |
-| Tailwind CSS | Estilos y diseño responsive |
-| Motion       | Animaciones                 |
-| Lucide React | Iconografía                 |
-| HTML5 / CSS3 | Estructura y estilos        |
-
-### Backend
-
-| Tecnología              | Uso                                 |
-| ----------------------- | ----------------------------------- |
-| Java 17+                | Lenguaje principal                  |
-| Spring Boot 3           | Desarrollo de la API REST           |
-| Spring Security         | Seguridad y autorización            |
-| JWT                     | Autenticación mediante tokens       |
-| Spring Data JPA         | Persistencia de datos               |
-| Hibernate               | ORM                                 |
-| Apache Maven            | Gestión del proyecto y dependencias |
-| Lombok                  | Reducción de código repetitivo      |
-| MapStruct / ModelMapper | Conversión entre DTOs y entidades   |
 
 ---
 
@@ -202,7 +221,7 @@ frontend/
 
 ---
 
-<h2 align="center">🚀 Instalación y ejecución</h2>
+<h2 align="center">🚀 Instalación y Ejecución</h2>
 
 ### 1. Clonar el repositorio
 
@@ -219,13 +238,13 @@ Ingresar al directorio:
 cd backend
 ```
 
-En Windows:
+#### Windows
 
 ```bash
 mvnw.cmd spring-boot:run
 ```
 
-En Linux/macOS:
+#### Linux / macOS
 
 ```bash
 ./mvnw spring-boot:run
@@ -255,11 +274,11 @@ http://localhost:5173
 
 ---
 
-<h2 align="center">⚙️ Variables de entorno</h2>
+<h2 align="center">⚙️ Variables de Entorno</h2>
 
 El backend utiliza variables de entorno para configurar información sensible como las credenciales de la base de datos y la clave utilizada para JWT.
 
-Ejemplo:
+### Backend
 
 ```env
 DB_URL=...
@@ -268,7 +287,7 @@ DB_PASSWORD=...
 JWT_SECRET=...
 ```
 
-Para el frontend:
+### Frontend
 
 ```env
 VITE_API_URL=http://localhost:8080
@@ -376,7 +395,7 @@ Durante el desarrollo de **Conecta Hogar** se trabajaron conceptos relacionados 
 
 <h2 align="center">👥 Equipo</h2>
 
-**CODE TO CA$H**
+### CODE TO CA$H
 
 | Integrante      | Área     |
 | --------------- | -------- |
@@ -392,3 +411,9 @@ Durante el desarrollo de **Conecta Hogar** se trabajaron conceptos relacionados 
 <h2 align="center">📄 Licencia</h2>
 
 Este proyecto fue desarrollado con fines académicos y de aprendizaje como parte del proceso de formación en desarrollo Full Stack.
+
+---
+
+<p align="center">
+  <strong>Conecta Hogar · CODE TO CA$H</strong>
+</p>
